@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_studio_ghibli_logo">
+
+
+    <!-- animates alpha of the outer ring-->
+    <target
+        android:name="@string/logo"
+        android:animation="@animator/change_alpha" />
+</animated-vector>
